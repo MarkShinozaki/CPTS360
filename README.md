@@ -6,7 +6,7 @@
 
 ### NAVIGATION OF ALL MATERIAL 
 
-### 1. [Course Information]()
+### 1. [Course Information](https://github.com/MarkShinozaki/CPTS360-SystemsProgrammingInUnix-Linux/tree/Course-Information)
 
 ---
 ### 2. [Additional Resources]()
