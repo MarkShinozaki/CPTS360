@@ -46,6 +46,16 @@ tst_bit(int ibuf[256], int bit)
 
 ### Question 4
 
+#### `MINODE *mip` Points at a Minode, Whose INODE is a Directory
+
+
+- ##### `char *cp, buf[BLKSIZE];`
+- ##### `DIR *dp;`
+
+   - ##### Write code to print the inode number of all files in this INODE.
+
+
+
 
 ### Question 5 
 
