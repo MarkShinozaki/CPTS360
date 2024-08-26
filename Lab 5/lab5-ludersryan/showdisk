@@ -1,0 +1,3 @@
+sudo mount $1 /mnt
+ls -l /mnt
+sudo umount /mnt
