@@ -7,22 +7,26 @@
 ### NAVIGATION OF ALL MATERIAL 
 
 ### 1. [Course Information]()
+
 ---
 ### 2. [Additional Resources]()
+
 ---
-### 3. [Lectures-Notes]()
+### 3. [Notes]()
+
+---
+### 5. [Lab Rubrics]()
 
 --- 
-### 4. [Assignments]()
+### 6. [Labs]()
 
 ---
-### 5. [Labs]()
-
-
----
-### 6. [Sample Midterm Exams]()
+### 7. [Exam Material]()
 
 --- 
+### 8. [Textbook]()
+
+
 
 > [!IMPORTANT]
 > ***This Course is meant to introduce you to the ... ***
