@@ -29,7 +29,7 @@
 ---
 
 > [!IMPORTANT]
-> ***This Course is meant to introduce you to the ... ***
+> ***This Course is meant to introduce you to the fundamentals of systems programming in Unix/Linux, covering topics such as file systems, process control, synchronization, and networking.***
 > ***The Work and Material in this Repo is meant to provide assistance; there is a possibility that a few things here and there are not correct, so please check all contents yourself.***
 
 
