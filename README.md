@@ -26,7 +26,7 @@
 --- 
 ### 8. [Textbook]()
 
-
+---
 
 > [!IMPORTANT]
 > ***This Course is meant to introduce you to the ... ***
