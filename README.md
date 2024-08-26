@@ -9,22 +9,22 @@
 ### 1. [Course Information](https://github.com/MarkShinozaki/CPTS360-SystemsProgrammingInUnix-Linux/tree/Course-Information)
 
 ---
-### 2. [Additional Resources]()
+### 2. [Additional Resources](https://github.com/MarkShinozaki/CPTS360-SystemsProgrammingInUnix-Linux/tree/Additional-Resources)
 
 ---
-### 3. [Notes]()
+### 3. [Notes](https://github.com/MarkShinozaki/CPTS360-SystemsProgrammingInUnix-Linux/tree/Notes)
 
 ---
-### 5. [Lab Rubrics]()
+### 5. [Lab Rubrics](https://github.com/MarkShinozaki/CPTS360-SystemsProgrammingInUnix-Linux/tree/Lab-Rubrics)
 
 --- 
-### 6. [Labs]()
+### 6. [Labs](https://github.com/MarkShinozaki/CPTS360-SystemsProgrammingInUnix-Linux/tree/Labs)
 
 ---
-### 7. [Exam Material]()
+### 7. [Exam Material](https://github.com/MarkShinozaki/CPTS360-SystemsProgrammingInUnix-Linux/tree/Exam-Material)
 
 --- 
-### 8. [Textbook]()
+### 8. [Textbook](https://github.com/MarkShinozaki/CPTS360-SystemsProgrammingInUnix-Linux/tree/Textbook)
 
 ---
 
@@ -33,11 +33,9 @@
 > ***The Work and Material in this Repo is meant to provide assistance; there is a possibility that a few things here and there are not correct, so please check all contents yourself.***
 
 
-
-
 > [!CAUTION]
 > ***All Material including, Lecture Material, Homeworks and Projects are Subject to change or modifications by the professor so material may differ than current lecture material***
 
 ---
 
-### [Next Course - CPTS 415 -   ]()
+### [Next Course - CPTS 415 - Big Data  ](https://github.com/MarkShinozaki/CPTS415-BigData)
