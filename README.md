@@ -1,4 +1,4 @@
-# Over Concept Notes 
+# Overall Concept Notes 
 
 1. File Systems: Understanding files, directories, special files, and logical organization.
 2. Program Development: Learning about source files, compilation, linking, debugging, and execution.
