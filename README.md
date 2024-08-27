@@ -167,3 +167,12 @@ tst_bit(int ibuf[256], int bit)
 
 ### Question 4
 
+
+#### Assume:
+char buf[BLKSIZE] contains the data block of a directory.
+
+#### Given:
+
+`DIR *dp, char *cp;`
+
+#### Write code to print the [inode, rec_len] of all directory entries in buf [ ].
