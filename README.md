@@ -1,4 +1,183 @@
-# Exam 2 
+# Exam Material 
+
+## Exam 1 - Review Questions
+
+### Question 1
+
+Given a program with GLOBAL variable, LOCAL variables, which variables are in `a.out` file?  
+___________ **WHY?** ____________
+
+
+### Question 2
+
+```c
+Given main(int argc, char *argv[]) { int a=1, b=2; A(a,b); }
+      int A(int x, int y) { int u, v; HERE: }
+```
+- #### Draw a diagram of stack contents from HERE: to argv of main()
+- #### Identify the STACK FRAME of A() function.
+
+### Question 3
+
+```
+myprintf(char *fmt,...)
+{ char *cp; int *ip; ....}
+```
+
+### Question 4
+
+```
+printu(u32 x);
+```
+- Write code for `printd(int x)`.
+- Write code to let `cp` point at the fmt string.
+- Write code to let `ip` point at the first item to be printed on stack.
+
+### Question 5
+
+#### Partition Table: 
+- ##### Write code for printd(int x) 
+- ##### Write code to let cp point at the fmt string _____________
+- ##### Write code to let ip point at the first item to be printed on stack ___________
+
+### Question 6
+
+#### Partition Table
+##### 1. How did you get MBR of a virtual disk into char buf[512]?
+##### 2. Write code to print the TYPE of partition 3 in MBR.
+##### 3. What’s an extended partition?
+
+### Question 7
+
+
+- ##### Write C statments to define a node strcuture containing:
+   - ##### name : array of 64 chars
+   - ##### key  : int
+   - ##### next : pointer to the next node;
+
+- ##### Given a link of list of NODEs as defined above,
+   - ##### Write C code to print the names of the list elements.
+   - ##### Write code to INSERT a new node to the END of a list
+   - ##### Write code to delete a node with a given key value 
+
+
+### Question 8
+
+- ##### What's a process? _______________
+- ##### what does ksleep() dp ? ___________
+- ##### What does kwakeup() do? ___________
+- ##### How does a process terminate/ ___________
+
+### Question 9 
+
+#### Processes form a BINARY tree by child, sibiling pointers.
+
+#### Assume: PROC *p kfork() a child *q.
+
+- ##### (1) Write code to insert q into CHILD list of p: ___________
+- ##### (2) Write code to print child list of p: __________
+
+### Question 9 
+
+- ##### For any Linux command, how does Linux sh find the command? _________
+- ##### Write code to tokenize PATH into dir[0], dir[1], ___________
+
+### Question 10
+
+#### ASSUME: Your sh gets a command line "cmd one two three"
+
+- ##### Write C code to tokenize the line into char *myargv[ ].
+- ##### Write C code to execute cmd, passing as parameters myargv and env.
+
+```
+while(1) {
+    get a command line;
+    tokenize the command line;
+    fork a child (EXACT code);
+    if (parent) wait for child to die;
+    repeat while loop;
+    else (CHILD) sh do the command line;
+}
+```
+
+### Question 11
+
+```
+CHILD sh: for a command line = CMD a b c d  > outfile 
+   Write code to do > outfile: _________________
+               MAY be <      :
+   Create a pathname = dir[i]/cmd:    CODE: _______________
+   Create myargv[  ]:   Show myargv[  ]   EXACTLY: _____________
+
+            int r = execve(pathname, myargv, env);
+
+   What if the execve() call succeeds? ____________
+   What if the execve() call fails? __________
+
+   Assume command line = cat filename | grep printf
+   Write C code to do the pipe _____________
+```
+
+### Question 12
+
+- ##### Threads vs. Process: What are threads?
+- ##### How to create Threads?
+- ##### What does thread_join() do? _________
+- ##### What's the difference between thread_barrier() and thread_join()?
+  
+- ##### What’s a Critical Region?
+- ##### How to protect Critical Regions?
+
+### Question 13 
+
+- ##### What’s partial pivoting? __________
+- ##### Why partial pivoting? ___________
+
+##### Given linear equations A*X = B
+- ##### What’s LU decomposition? __________________
+- ##### After converting A = L*U, how to solve for X? ________________________
+
+### Question 13
+
+```
+                                      mkdir, rmdir, cd, pwd, chmod.
+Write down syscall function for each: _____  _____  __  ___  _____
+```
+
+### Question 14 
+
+- ##### How to tell a file is REGular?
+- ##### How to tell a file is a DIRectory?
+- ##### How to tell a file is a LINKfile?
+
+### Question 15 
+
+
+#### u32 st_ctime = 12345678:
+
+- ##### What does the value mean? ________________
+
+- ##### How to convert st_ctime into CALENDAR form? ___________
+
+#### Write C code to print all the file names under Current Directory.
+
+
+### Question 16 
+
+```
+Write C code to open filename for READ: _________________
+                Then read 10 bytes:     _________________
+               fopen filename for READ: _________________
+                Then read 10 bytes:     _________________
+
+Relation between fopen and open? ____________________________
+                 fread and read? ____________________________
+
+When to use syscall? When to use Lib I/O functions?
+
+```
+
+--- 
 
 ## Exam 2 - Review Questions 
 
