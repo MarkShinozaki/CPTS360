@@ -114,10 +114,56 @@ tst_bit(int ibuf[256], int bit)
 
 - #### How to create a new symlink to old?
 
+
+### Question 11 
+
+- #### Draw a diagram to show what does opne filename 0(READ) do 
+
+
 ---
 
 ## Exam 2 - Questions 
 
+### Question 1
+
+- `int ibuf[256];`
+- `int BIT` (a bit number)
 
 
+#### Write code for `set_bit(int ibuf[ ], int BIT)` which sets `BIT` in `ibuf[ ]` to 1.
+
+
+### Question 2
+
+#### In a Disk Image:
+- #### BLKSIZE = 1024
+- #### inode_size (s_inode_size) = 256
+- #### sizeof(INODE) = 128
+- #### inodes_start_block = 20
+
+#### Given: ino = 12, whose INODE is INODE12;
+
+- ##### (1) How many INODES in a disk block? __________
+
+- ##### (2) Which disk block contains INODE12?
+   - ##### BLK = __________ (formula: __________)
+     
+- ##### (3) Which INODE in BLK is INODE12?
+   - ##### OFFSET = __________ (formula: __________)
+
+- ##### (4) Write code to get BLK into char buf[BLKSIZE] : ___________ 
+   - ##### Then let INODE pointer ip point at INODE12 in buf[ ] : _________ 
+
+### Question 3
+
+#### Given:
+```
+   Given: enqueue(MINODE **queue, MINODE *p): enter p into queue.
+          MINODE *dequeue(MINODE **queue): remove/return first queue element.
+   cacheList is a queue of minodes, but its elements may be out-of-order.
+
+```
+#### Write code to re-order cacheList.
+
+### Question 4
 
